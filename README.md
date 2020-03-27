@@ -17,5 +17,5 @@ $ sh update.sh <cloudformation_server_stack_name> servers.yml server-parameters.
 ```
 ### CloudFormation delete stack command
 ```sh
-$ ws cloudformation delete-stack --stack-name <cloudformation_stack_name>
+$ aws cloudformation delete-stack --stack-name <cloudformation_stack_name>
 ```
